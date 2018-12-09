@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         /** setting up the toolbar  **/
         toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("Voice Recorder");
+        toolbar.setTitle("Memo-ry");
         toolbar.setTitleTextColor(getResources().getColor(android.R.color.black));
         setSupportActionBar(toolbar);
 

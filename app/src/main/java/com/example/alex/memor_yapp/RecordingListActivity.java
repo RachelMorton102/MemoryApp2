@@ -36,7 +36,7 @@ public class RecordingListActivity extends AppCompatActivity {
         recordingArraylist = new ArrayList<Recording>();
         /** setting up the toolbar  **/
         toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("Recording List");
+        toolbar.setTitle("Memo-ries");
         toolbar.setTitleTextColor(getResources().getColor(android.R.color.black));
         setSupportActionBar(toolbar);
 

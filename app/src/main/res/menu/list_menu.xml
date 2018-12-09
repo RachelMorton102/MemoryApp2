@@ -6,8 +6,8 @@
 
     <item
         android:id="@+id/item_list"
-        android:iconTint="FFFFFF"
-        android:title="List"
+
+        android:title="Diary"
 
         android:tooltipText="white"
         app:showAsAction="always|withText" />
