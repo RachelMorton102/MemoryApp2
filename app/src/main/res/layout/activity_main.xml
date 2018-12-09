@@ -44,7 +44,7 @@
                 android:id="@+id/imageViewPlay"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_old_recorder"
+                android:src="@drawable/ic_old_recorder_Play"
                 android:layout_gravity="center_vertical"
                 android:clickable="true"
                 android:tint="@android:color/white"
@@ -89,7 +89,7 @@
                 android:background="?android:attr/selectableItemBackground"
                 android:clickable="true"
                 android:focusable="true"
-                android:src="@drawable/ic_old_recorder"
+                android:src="@drawable/ic_old_recorder_stop"
                 android:tint="@android:color/white"
                 android:visibility="gone" />
 
