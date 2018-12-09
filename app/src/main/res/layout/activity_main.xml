@@ -3,13 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_purple"
+    android:background="@color/colorAccent"
     tools:context="net.simplifiedcoding.voicerecorderapp.MainActivity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/barbar"
         />
 
     <LinearLayout
@@ -44,7 +45,7 @@
                 android:id="@+id/imageViewPlay"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_old_recorder_Play"
+                android:src="@drawable/ic_old_recorder_play"
                 android:layout_gravity="center_vertical"
                 android:clickable="true"
                 android:tint="@android:color/white"
@@ -79,13 +80,13 @@
                 android:background="?android:attr/selectableItemBackground"
                 android:clickable="true"
                 android:focusable="true"
-                android:src="@drawable/ic_old_recorder" />
+                android:src="@drawable/ic_old_recorder_play" />
 
             <ImageView
                 android:id="@+id/imageViewStop"
-                android:layout_width="42dp"
-                android:layout_height="42dp"
-                android:layout_gravity="center_vertical"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
                 android:background="?android:attr/selectableItemBackground"
                 android:clickable="true"
                 android:focusable="true"
